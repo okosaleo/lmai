@@ -20,5 +20,7 @@ export const POST = async (req: Request) => {
         }
     })
 
+    console.log("user created")
+
     return new Response('Webhook received', {status: 200})
 }
