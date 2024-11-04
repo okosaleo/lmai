@@ -1,13 +1,10 @@
-import { Button } from "@/components/ui/button";
+import Linkaccount from "@/components/link-account";
 
 
 export default async function Home() {
   
 
   return (
-    <div className="text-3xl p-4">
-      <Button>Hello Leo</Button>
-      
-    </div>
+    <Linkaccount />
   );
 }
